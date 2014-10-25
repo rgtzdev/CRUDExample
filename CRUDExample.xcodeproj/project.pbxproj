@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F41A0DBA19F9E18C001CE4D8 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F41A0DB919F9E18C001CE4D8 /* Settings.bundle */; };
+		F41A0DBE19F9F571001CE4D8 /* WPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F41A0DBD19F9F571001CE4D8 /* WPModel.m */; };
+		F41A0DC119F9F685001CE4D8 /* PermissionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F41A0DC019F9F685001CE4D8 /* PermissionModel.m */; };
+		F421F52219FA276000444B2F /* AddUserControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F421F52119FA276000444B2F /* AddUserControllerViewController.m */; };
 		F42F6AE819F2AAB9002ABE2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F42F6AE719F2AAB9002ABE2D /* main.m */; };
 		F42F6AEB19F2AAB9002ABE2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F42F6AEA19F2AAB9002ABE2D /* AppDelegate.m */; };
 		F42F6AEE19F2AAB9002ABE2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42F6AED19F2AAB9002ABE2D /* ViewController.m */; };
@@ -14,6 +18,9 @@
 		F42F6AF319F2AAB9002ABE2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42F6AF219F2AAB9002ABE2D /* Images.xcassets */; };
 		F42F6AF619F2AAB9002ABE2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F42F6AF419F2AAB9002ABE2D /* LaunchScreen.xib */; };
 		F42F6B0219F2AAB9002ABE2D /* CRUDExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F42F6B0119F2AAB9002ABE2D /* CRUDExampleTests.m */; };
+		F42F6B1119F2B09D002ABE2D /* UserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42F6B1019F2B09D002ABE2D /* UserTableViewController.m */; };
+		F42F6B1619F2B9C8002ABE2D /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F42F6B1519F2B9C8002ABE2D /* UserModel.m */; };
+		F42F6B1919F2C0DF002ABE2D /* WSRESTconnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F42F6B1819F2C0DF002ABE2D /* WSRESTconnection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F41A0DB919F9E18C001CE4D8 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		F41A0DBC19F9F571001CE4D8 /* WPModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WPModel.h; path = Link/Classes/WPModel.h; sourceTree = "<group>"; };
+		F41A0DBD19F9F571001CE4D8 /* WPModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WPModel.m; path = Link/Classes/WPModel.m; sourceTree = "<group>"; };
+		F41A0DBF19F9F685001CE4D8 /* PermissionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PermissionModel.h; path = Models/PermissionModel.h; sourceTree = "<group>"; };
+		F41A0DC019F9F685001CE4D8 /* PermissionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PermissionModel.m; path = Models/PermissionModel.m; sourceTree = "<group>"; };
+		F421F52019FA276000444B2F /* AddUserControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddUserControllerViewController.h; path = Controllers/AddUserControllerViewController.h; sourceTree = "<group>"; };
+		F421F52119FA276000444B2F /* AddUserControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddUserControllerViewController.m; path = Controllers/AddUserControllerViewController.m; sourceTree = "<group>"; };
 		F42F6AE219F2AAB9002ABE2D /* CRUDExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRUDExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42F6AE619F2AAB9002ABE2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F42F6AE719F2AAB9002ABE2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +54,12 @@
 		F42F6AFB19F2AAB9002ABE2D /* CRUDExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRUDExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42F6B0019F2AAB9002ABE2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F42F6B0119F2AAB9002ABE2D /* CRUDExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRUDExampleTests.m; sourceTree = "<group>"; };
+		F42F6B0F19F2B09D002ABE2D /* UserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserTableViewController.h; path = Controllers/UserTableViewController.h; sourceTree = "<group>"; };
+		F42F6B1019F2B09D002ABE2D /* UserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserTableViewController.m; path = Controllers/UserTableViewController.m; sourceTree = "<group>"; };
+		F42F6B1419F2B9C8002ABE2D /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserModel.h; path = Models/UserModel.h; sourceTree = "<group>"; };
+		F42F6B1519F2B9C8002ABE2D /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserModel.m; path = Models/UserModel.m; sourceTree = "<group>"; };
+		F42F6B1719F2C0DF002ABE2D /* WSRESTconnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSRESTconnection.h; path = Link/WSRESTconnection.h; sourceTree = "<group>"; };
+		F42F6B1819F2C0DF002ABE2D /* WSRESTconnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSRESTconnection.m; path = Link/WSRESTconnection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F41A0DBB19F9F52B001CE4D8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F41A0DBC19F9F571001CE4D8 /* WPModel.h */,
+				F41A0DBD19F9F571001CE4D8 /* WPModel.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		F42F6AD919F2AAB9002ABE2D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,11 @@
 		F42F6AE419F2AAB9002ABE2D /* CRUDExample */ = {
 			isa = PBXGroup;
 			children = (
+				F41A0DBB19F9F52B001CE4D8 /* Classes */,
+				F41A0DB919F9E18C001CE4D8 /* Settings.bundle */,
+				F42F6B1319F2B8D6002ABE2D /* Link */,
+				F42F6B1219F2B8CB002ABE2D /* Models */,
+				F42F6B0B19F2AF5A002ABE2D /* Controllers */,
 				F42F6AE919F2AAB9002ABE2D /* AppDelegate.h */,
 				F42F6AEA19F2AAB9002ABE2D /* AppDelegate.m */,
 				F42F6AEC19F2AAB9002ABE2D /* ViewController.h */,
@@ -117,6 +151,37 @@
 				F42F6B0019F2AAB9002ABE2D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F42F6B0B19F2AF5A002ABE2D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F42F6B0F19F2B09D002ABE2D /* UserTableViewController.h */,
+				F42F6B1019F2B09D002ABE2D /* UserTableViewController.m */,
+				F421F52019FA276000444B2F /* AddUserControllerViewController.h */,
+				F421F52119FA276000444B2F /* AddUserControllerViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F42F6B1219F2B8CB002ABE2D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F42F6B1419F2B9C8002ABE2D /* UserModel.h */,
+				F42F6B1519F2B9C8002ABE2D /* UserModel.m */,
+				F41A0DBF19F9F685001CE4D8 /* PermissionModel.h */,
+				F41A0DC019F9F685001CE4D8 /* PermissionModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F42F6B1319F2B8D6002ABE2D /* Link */ = {
+			isa = PBXGroup;
+			children = (
+				F42F6B1719F2C0DF002ABE2D /* WSRESTconnection.h */,
+				F42F6B1819F2C0DF002ABE2D /* WSRESTconnection.m */,
+			);
+			name = Link;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F41A0DBA19F9E18C001CE4D8 /* Settings.bundle in Resources */,
 				F42F6AF119F2AAB9002ABE2D /* Main.storyboard in Resources */,
 				F42F6AF619F2AAB9002ABE2D /* LaunchScreen.xib in Resources */,
 				F42F6AF319F2AAB9002ABE2D /* Images.xcassets in Resources */,
@@ -219,9 +285,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F421F52219FA276000444B2F /* AddUserControllerViewController.m in Sources */,
 				F42F6AEE19F2AAB9002ABE2D /* ViewController.m in Sources */,
+				F41A0DBE19F9F571001CE4D8 /* WPModel.m in Sources */,
+				F42F6B1619F2B9C8002ABE2D /* UserModel.m in Sources */,
+				F42F6B1119F2B09D002ABE2D /* UserTableViewController.m in Sources */,
 				F42F6AEB19F2AAB9002ABE2D /* AppDelegate.m in Sources */,
 				F42F6AE819F2AAB9002ABE2D /* main.m in Sources */,
+				F41A0DC119F9F685001CE4D8 /* PermissionModel.m in Sources */,
+				F42F6B1919F2C0DF002ABE2D /* WSRESTconnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +484,7 @@
 				F42F6B0719F2AAB9002ABE2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F42F6B0819F2AAB9002ABE2D /* Build configuration list for PBXNativeTarget "CRUDExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +493,7 @@
 				F42F6B0A19F2AAB9002ABE2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
